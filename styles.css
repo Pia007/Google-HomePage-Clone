@@ -102,15 +102,25 @@ a {
     cursor: pointer;
 }
 
-.mag,
+.mag {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 12px;
+}
+
 .mic {
     display: inline-block;
     height: 40px;
     width: 40px;
-    vertical-align: bottom;
     padding-top: 5px;
-    padding-bottom: 1px
 }
+
+.mag,
+.mic {
+    vertical-align: bottom;
+}
+
 
 .sbox {
     width: 90%;
