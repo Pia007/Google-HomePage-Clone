@@ -1,0 +1,193 @@
+/* GLOBAL STYLING OF THE BODY */
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* STYLING THE NAVIGATION BAR */
+
+nav {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.navleft {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navright {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    display: flex;
+    margin-right: 25px;
+    list-style: none;
+}
+
+li button {
+    color: white;
+    background-color: #4284f4;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px 10px 35px;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+
+#sign-in:hover {
+    box-shadow: 0 2px 6px 0 rgba(7, 35, 121, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+li img {
+    height: 25px;
+}
+
+li img:hover {
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 rgba(88, 93, 110, 0.28);
+    border-color: rgba(92, 95, 100, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* STYLING THE MAIN CONTENT */
+
+.main {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 350px;
+}
+
+.search {
+    border: 1px solid #d7d9db;
+    height: 55px;
+    width: 725px;
+    border-radius: 27px;
+    display: flex;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.mag,
+.mic {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: bottom;
+    padding-top: 5px;
+    padding-bottom: 1px
+}
+
+.sbox {
+    width: 90%;
+    height: 90%px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search:hover {
+    box-shadow: 0 2px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.enter {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.submit {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    height: 30px;
+    width: auto;
+    margin: 15px 0 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.submit:hover {
+    border-color: 1px solid black;
+    box-shadow: 0 1px 4px 0 rgb(133, 140, 158);
+}
+
+
+/* STYLING THE FOOTER */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font: 15px arial, sans-serif;
+    background-color: #efefef;
+    border-top: 1px solid #ededed;
+}
+
+.footerlinks li {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin-left: 25px;
+    margin-left: 25px;
+    margin-top: 13px;
+}
+
+.leaf {
+    transform: scaleX(-1);
+}
+
+.enviro {
+    position: relative;
+    text-align: center;
+    right: 255px;
+    top: 13px;
+}
+
+.conditions li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
